@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Sign</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="./favicon/favicon-16x16.png">
+</head>
+<body>
+    <main>
+        <h1 class="header">Get Sign</h1>
+        <div class="top">
+            <div id="block">
+                <p>Font Color</p>
+                <input type="color" value="black" id="fontColor">
+            </div>
+            <div id="backgroundColorPicker">
+                <p>Background Color</p>
+                <input type="color" value="white"  id="backgroundColor">
+            </div>
+            <div class="block">
+                <p>Font Size</p>
+                <select id="fontSize">
+                    <option value="5">5px</option>
+                    <option value="10">10px</option>
+                    <option value="15">15px</option>
+                    <option value="20">20px</option>
+                    <option value="25">25px</option>
+                    <option value="30">30px</option>
+                    <option value="40">40px</option>
+                    <option value="50">50px</option>
+                </select>
+            </div>
+        </div>
+        <canvas class="canvas" id="myCanvas" width="800" height="500">
+
+        </canvas>
+
+        <div class="bottom">
+            <button id="clearBtn">Clear</button>
+            <button id="saveBtn">Save</button>
+            <button id="retrieveBtn">Retrive Drawing</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
